@@ -1,0 +1,50 @@
+.phpthumb {
+	height: 128px;
+	width: 128px;
+	padding: 4px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	border: thin solid gray;
+	float:left;
+	text-align: center;
+	}
+	
+/*php will vertically align.*/
+.phpthumb img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	border: none;
+	float: none;
+	text-align: center;
+	}
+
+.phpthumb_active {
+	/* pseudo-css for the plugin. use these
+	to specify the dimensions to which the
+	image shall be constrained.
+	pheight:128px;
+	pwidth:128px; */
+	height: 128px;
+	width: 128px;
+	background-color: transparent;
+	border: thin solid gray;
+	padding: 4px;
+	margin: 4px 16px 8px 0px;
+	text-align: center;
+	float: left;
+	}
+
+.phpthumb_active img {
+	padding: 0;
+	border: none;
+	}
+
+.caption {height: 150px;} /*for text under the picture*/
+.caption-auto {height: auto;} /*for text under the picture*/
